@@ -1,7 +1,5 @@
-[
-    {
-        "name": "Alice",
-        "age": 28,
-        "city": "Paris"
-    }
-]
+{
+    "topics": ["Science", "Technology", "History"],
+    "phrases": ["Hello", "How are you?", "Thank you!"],
+    "images": ["image1.jpg", "image2.jpg"]
+}
