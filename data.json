@@ -1,5 +1,15 @@
 {
-    "topics": ["Science", "Technology", "History"],
+    "topics": {
+        "Abstract": "A brief summary of the research.",
+        "Introduction": "An overview of the problem and objectives.",
+        "Background": "Relevant literature and previous work.",
+        "System Design": "Architecture and system components.",
+        "Methodology": "Techniques and approaches used.",
+        "Results": "Findings from the study.",
+        "Discussion": "Interpretation of results.",
+        "Conclusion": "Summary and key takeaways.",
+        "Future Work": "Potential improvements and next steps."
+    },
     "phrases": ["Hello", "How are you?", "Thank you!"],
     "images": ["image1.jpg", "image2.jpg"]
 }
