@@ -9,7 +9,11 @@ function showContent(section) {
         content.innerHTML = `
             <h2>Topics</h2>
             <ul class="list-group">
-                ${window.data.topics.map(t => `<li class="list-group-item">${t}</li>`).join("")}
+                ${Object.keys(window.data.topics).map(topic => `
+                    <li class="list-group-item">
+                        <strong>${topic}</strong>: ${window.data.topics[topic]}
+                    </li>
+                `).join("")}
             </ul>
         `;
     } else if (section === "phrase-bank") {
