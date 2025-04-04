@@ -1,26 +1,34 @@
 name: Update Data JSON
 
 on:
-  repository_dispatch:
-    types: [update_data]
+  workflow_dispatch:  # Allows manual triggering
+  push:
+    branches:
+      - main  # Change to your repo's default branch if needed
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update data.json
-        run: |
-          echo '${{ toJson(github.event.client_payload) }}' > data.json
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
-      - name: Commit and Push changes
+      - name: Modify JSON file
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          echo '{"name": "John Doe", "age": 30, "city": "New York"}' > data.json
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add data.json
-          git commit -m "Updated data.json via GitHub Actions" || echo "No changes to commit"
+          git commit -m "Update data.json"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # Ensure you have this secret in GitHub
