@@ -5,7 +5,7 @@ async function saveData() {
         city: document.getElementById("city").value
     };
 
-    const response = await fetch('https://api.github.com/repos/sukitha-16/my-webstore/contents/data.json', {
+    const response = await fetch('https://api.github.com/repos/sukitha-16/my-webstore/data.json', {
         method: "PUT",
         headers: {
             "Authorization": "token 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", // Use GitHub Actions Secrets
@@ -27,7 +27,7 @@ async function saveData() {
 }
 
 async function getFileSHA() {
-    const response = await fetch('https://api.github.com/repos/sukitha-16/my-webstore/contents/data.json');
+    const response = await fetch('https://api.github.com/repos/sukitha-16/my-webstore/data.json');
     const data = await response.json();
     return data.sha; // Needed for updating the file
 }
