@@ -1,6 +1,24 @@
 {
     "topics": {
-        "Abstract": "A brief summary of the research.",
+        "Abstract": {
+            "words": {
+                "Analysis": {
+                    "synonyms": ["Examination", "Evaluation", "Assessment"],
+                    "antonyms": ["Neglect", "Ignore"],
+                    "description": "The process of examining something methodically."
+                },
+                "Research": {
+                    "synonyms": ["Investigation", "Study", "Exploration"],
+                    "antonyms": ["Guesswork", "Assumption"],
+                    "description": "A systematic inquiry to establish facts or principles."
+                },
+                "Innovation": {
+                    "synonyms": ["Creativity", "Invention", "Improvement"],
+                    "antonyms": ["Stagnation", "Repetition"],
+                    "description": "The act of introducing something new."
+                }
+            }
+        },
         "Introduction": "An overview of the problem and objectives.",
         "Background": "Relevant literature and previous work.",
         "System Design": "Architecture and system components.",
