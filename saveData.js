@@ -16,7 +16,7 @@ document.getElementById("data-form").addEventListener("submit", async function (
         method: 'POST',
         headers: {
             'Accept': 'application/vnd.github.everest-preview+json',
-            'Authorization': 'token YOUR_GITHUB_PAT',
+            'Authorization': 'token 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',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
