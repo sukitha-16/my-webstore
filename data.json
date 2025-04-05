@@ -64,7 +64,97 @@
         "...has inspired numerous research directions.",
         "...motivates the need for improved frameworks."
       ]
+    },
+
+"Abstract": {
+      "Meaning": "A concise summary of the research, including motivation, methodology, and findings.",
+      "Synonyms": ["Summary", "Overview", "Executive summary"],
+      "Antonyms": ["Detailed explanation", "Full text"],
+      "Phrases": [
+        "This study delineates a novel paradigm for...",
+        "Empirical evidence substantiates the efficacy of...",
+        "The investigation elucidates core principles underlying...",
+        "The methodological scaffold enables robust interpretation of...",
+        "A salient contribution of this work lies in the formulation of..."
+      ],
+      "Words": {
+        "To~Signal~Objective~or~Problem~Statement": {
+          "synonyms": [
+            "A~persistent~challenge~in~sensor-driven~systems~is...",
+            "This~study~addresses~the~need~for~timely~fault~detection",
+            "A~critical~gap~exists~in~handling~nonlinear~faults",
+            "To~mitigate~false~alarms~in~streaming~sensor~data,",
+            "Given~the~increasing~complexity~of~IoT~networks,"
+          ]
+        },
+        "To~Initiate~Methodological~Flow": {
+          "synonyms": [
+            "Our~approach~is~structured~as~follows:",
+            "The~methodology~comprises~three~distinct~stages:",
+            "We~first~characterize~sensor~dynamics,~followed~by~...",
+            "A~step-wise~architecture~is~formulated~to~analyze~...",
+            "The~pipeline~is~initiated~by~data~preprocessing~followed~by~..."
+          ]
+        },
+        "To~Describe~Modelling~or~Mathematical~Basis": {
+          "synonyms": [
+            "Sensor~behavior~is~modeled~using~a~stochastic~state~representation",
+            "Faults~are~formulated~as~multiplicative~disturbances~over~time",
+            "The~data~distribution~is~estimated~via~Gaussian~Mixture~Models",
+            "Latent~variables~are~inferred~through~Bayesian~inference",
+            "We~introduce~a~Markov-based~formulation~to~capture~temporal~correlations"
+          ]
+        },
+        "To~Highlight~Intelligence~or~Learning~Aspects": {
+          "synonyms": [
+            "A~hybrid~intelligence~layer~learns~fault~patterns~in~real-time",
+            "Feature~vectors~are~encoded~via~autoencoders~to~capture~anomalies",
+            "Temporal~variability~is~captured~through~Long~Short-Term~Memory~(LSTM)~units",
+            "Learning~is~reinforced~using~feedback~from~fault~validation~modules",
+            "The~architecture~utilizes~attention~mechanisms~for~dynamic~feature~selection"
+          ]
+        },
+        "To~Clarify~Scope~or~Boundary~of~Study": {
+          "synonyms": [
+            "The~proposed~method~focuses~exclusively~on~scaling~faults",
+            "Only~voltage-to-temperature~transducer~data~are~considered",
+            "The~approach~is~evaluated~under~lab-controlled~conditions",
+            "This~study~excludes~cyber~intrusion~events~from~scope",
+            "Edge-computation~scenarios~form~the~operational~domain"
+          ]
+        },
+        "To~Introduce~Results~or~Findings": {
+          "synonyms": [
+            "Empirical~evidence~demonstrates~a~notable~improvement~in~detection~latency",
+            "Our~approach~achieves~>95%~accuracy~across~multiple~sensor~types",
+            "Quantitative~results~highlight~robustness~against~noise-induced~faults",
+            "The~model~outperforms~benchmarks~in~AUC,~F1-score,~and~latency",
+            "Observed~trends~validate~our~multi-stage~filtering~logic"
+          ]
+        },
+        "To~Conclude~with~Implications": {
+          "synonyms": [
+            "This~work~demonstrates~the~viability~of~real-time~sensor~trust~computation",
+            "Findings~suggest~wider~applicability~in~autonomous~systems",
+            "The~framework~sets~the~foundation~for~future~adaptive~diagnostics",
+            "This~approach~can~be~extended~to~heterogeneous~multi-sensor~networks",
+            "Our~work~contributes~towards~resilient~and~adaptive~CPS~design"
+          ]
+        },
+        "To~Acknowledge~Limitations~or~Future~Scope": {
+          "synonyms": [
+            "While~promising,~the~model~requires~further~validation~on~field~data",
+            "Scalability~to~cloud-integrated~systems~is~reserved~for~future~work",
+            "Dynamic~fault~injection~scenarios~remain~under~exploration",
+            "Limitations~include~dependency~on~label-rich~datasets",
+            "Extending~the~framework~for~multi-fault~interactions~is~ongoing"
+          ]
+        }
+      }
     }
+
+    
+    
   }
 }
 
