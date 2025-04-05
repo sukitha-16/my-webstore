@@ -1098,6 +1098,731 @@
         "Conclusion": "Summary and key takeaways.",
         "Future Work": "Potential improvements and next steps."
     },
-    "phrases": ["Hello", "How are you?", "Thank you!"],
+
+
+
+
+
+
+    "PhraseBank": {
+
+
+
+"Abstract": {
+  "phrases": [
+    "This paper investigates the potential of...",
+    "The findings demonstrate improvements in...",
+    "Our study addresses the gap in...",
+    "The proposed approach significantly enhances...",
+    "Results validate the feasibility of..."
+  ]
+},
+"Introduction": {
+  "phrases": [
+    "Recent advancements have shown that...",
+    "In many domains, there remains a challenge in...",
+    "Prior research has not fully explored...",
+    "The growing complexity of systems demands...",
+    "This work is motivated by the limitations of..."
+  ]
+},
+"Literature_Review": {
+  "phrases": [
+    "Earlier studies have primarily focused on...",
+    "Multiple approaches have been proposed for...",
+    "Existing literature indicates a trend toward...",
+    "Several models have attempted to tackle...",
+    "Prior work lacks comprehensive solutions for..."
+  ]
+},
+"Problem_Statement": {
+  "phrases": [
+    "There remains an open problem in...",
+    "Conventional methods fall short when dealing with...",
+    "It is still unclear how best to approach...",
+    "The need for accuracy and scalability arises in...",
+    "Real-world deployment is hindered by..."
+  ]
+},
+"Methodology": {
+  "phrases": [
+    "Our methodology is structured around...",
+    "The system is composed of several key components including...",
+    "We base our approach on the principles of...",
+    "The proposed framework relies on...",
+    "A hybrid pipeline was developed incorporating..."
+  ]
+},
+"Data_Collection": {
+  "phrases": [
+    "Data were acquired from...",
+    "The experimental dataset consists of...",
+    "We sourced labeled data from...",
+    "Observations were recorded using...",
+    "The collected data were preprocessed through..."
+  ]
+},
+"Data_Preprocessing": {
+  "phrases": [
+    "Initial preprocessing steps involved...",
+    "Outliers were removed based on...",
+    "Features were scaled using...",
+    "Time series data were segmented using...",
+    "Data normalization was applied to handle..."
+  ]
+},
+"Training_and_Evaluation": {
+  "phrases": [
+    "Model training was conducted using...",
+    "Evaluation metrics include accuracy, precision, and...",
+    "Cross-validation was used to ensure...",
+    "Performance was benchmarked against...",
+    "The model was fine-tuned using..."
+  ]
+},
+"Results": {
+  "phrases": [
+    "Our model achieved higher performance on...",
+    "The results show improvements in both...",
+    "Metrics indicate significant gains over...",
+    "Performance remained consistent across...",
+    "The proposed system outperformed traditional approaches in..."
+  ]
+},
+"Ablation_Study": {
+  "phrases": [
+    "Component-wise analysis confirmed the impact of...",
+    "Removing feature X resulted in decreased performance on...",
+    "The ablation study highlights the importance of...",
+    "Performance varied significantly without...",
+    "We observed that the absence of Y led to..."
+  ]
+},
+"Discussion": {
+  "phrases": [
+    "These results support our initial hypothesis that...",
+    "Our approach offers greater flexibility when applied to...",
+    "The findings suggest broader applicability in...",
+    "Trade-offs between performance and complexity emerge in...",
+    "The model generalizes well across..."
+  ]
+},
+"Conclusion": {
+  "phrases": [
+    "In conclusion, this study presents a solution for...",
+    "We have introduced a method capable of addressing...",
+    "The framework proposed here successfully improves upon...",
+    "This work lays the foundation for future exploration into...",
+    "Our contributions open avenues for further research in..."
+  ]
+},
+"Future_Work": {
+  "phrases": [
+    "We plan to extend this framework to support...",
+    "Future studies will explore the integration of...",
+    "A natural next step involves deploying the system on...",
+    "Subsequent work may investigate scalability with...",
+    "Long-term goals include adapting the approach for..."
+  ]
+},
+
+
+"Title_Justification": {
+  "phrases": [
+    "...reflects the core contribution of the work.",
+    "...encapsulates the methodology and objective.",
+    "...aligns with the study's scope and intent.",
+    "...signals novelty in the proposed framework.",
+    "...offers a concise representation of the findings."
+  ]
+},
+"Abstract": {
+  "phrases": [
+    "...aims to address the limitations of prior techniques.",
+    "...proposes a novel strategy for improving predictive accuracy.",
+    "...summarizes key findings with practical implications.",
+    "...contributes a scalable solution to an existing challenge.",
+    "...offers a robust framework validated through extensive experimentation."
+  ]
+},
+"Introduction": {
+  "phrases": [
+    "...has emerged as a critical area in recent years.",
+    "...poses significant challenges in dynamic environments.",
+    "...requires advanced techniques for real-time inference.",
+    "...has inspired numerous research directions.",
+    "...motivates the need for improved frameworks."
+  ]
+},
+"Literature_Review": {
+  "phrases": [
+    "...has been extensively explored in prior studies.",
+    "...presents a diverse range of methodological approaches.",
+    "...reveals a recurring gap in generalization capabilities.",
+    "...underscores the need for scalable alternatives.",
+    "...suggests a shift towards data-driven paradigms."
+  ]
+},
+"Problem_Statement": {
+  "phrases": [
+    "...remains an unsolved challenge in complex systems.",
+    "...lacks adaptive handling under real-world conditions.",
+    "...demands reliable detection across heterogeneous sources.",
+    "...is hindered by uncertainty and limited context-awareness.",
+    "...requires fine-grained granularity for operational use."
+  ]
+},
+"Objectives": {
+  "phrases": [
+    "...to develop a robust and interpretable model.",
+    "...to evaluate the effectiveness under noisy conditions.",
+    "...to establish a unified framework for real-time analytics.",
+    "...to bridge theoretical insight with practical application.",
+    "...to assess performance across diverse datasets."
+  ]
+},
+"Methodology": {
+  "phrases": [
+    "...follows a modular pipeline combining preprocessing and inference.",
+    "...is grounded in principled mathematical modeling.",
+    "...integrates temporal features for context-aware learning.",
+    "...employs supervised and unsupervised paradigms.",
+    "...ensures minimal latency with incremental updates."
+  ]
+},
+"Experimental_Setup": {
+  "phrases": [
+    "...was implemented using open-source libraries and custom modules.",
+    "...was deployed on a heterogeneous computing platform.",
+    "...was validated using publicly available benchmark datasets.",
+    "...was structured to include baseline comparisons.",
+    "...adheres to reproducibility and scalability standards."
+  ]
+},
+"Data_Preprocessing": {
+  "phrases": [
+    "...involves normalization and transformation techniques.",
+    "...removes outliers and imputes missing values.",
+    "...applies dimensionality reduction via PCA.",
+    "...encodes categorical attributes using one-hot encoding.",
+    "...resamples sequences to maintain uniform time steps."
+  ]
+},
+"Feature_Engineering": {
+  "phrases": [
+    "...includes handcrafted and learned representations.",
+    "...extracts time-invariant and time-varying descriptors.",
+    "...leverages statistical and domain-specific signals.",
+    "...enhances model discriminability through augmentation.",
+    "...generates hybrid embeddings for multi-scale representation."
+  ]
+},
+"Model_Training": {
+  "phrases": [
+    "...utilizes stochastic gradient-based optimization.",
+    "...employs regularization to prevent overfitting.",
+    "...adopts cross-validation to ensure generalization.",
+    "...balances class distributions during training.",
+    "...adjusts hyperparameters through grid/random search."
+  ]
+},
+"Evaluation": {
+  "phrases": [
+    "...relies on standardized metrics for comparison.",
+    "...outperforms existing baselines in all settings.",
+    "...demonstrates consistent performance across folds.",
+    "...validates robustness under adversarial noise.",
+    "...exhibits improved recall for minority classes."
+  ]
+},
+"Results": {
+  "phrases": [
+    "...indicate significant gains in detection precision.",
+    "...highlight the adaptability of the proposed method.",
+    "...support the feasibility of real-time execution.",
+    "...show reduction in false positive rates.",
+    "...illustrate convergence within fewer epochs."
+  ]
+},
+"Ablation_Study": {
+  "phrases": [
+    "...evaluates the impact of each model component.",
+    "...quantifies the contribution of selected features.",
+    "...demonstrates performance degradation when excluding modules.",
+    "...confirms the necessity of hybrid training.",
+    "...establishes the value of temporal modeling."
+  ]
+},
+"Discussion": {
+  "phrases": [
+    "...corroborates the hypothesis outlined earlier.",
+    "...suggests broader applicability beyond tested scenarios.",
+    "...implies practical integration into existing pipelines.",
+    "...points to possible enhancements in future iterations.",
+    "...raises questions regarding domain generalization."
+  ]
+},
+"Limitations": {
+  "phrases": [
+    "...may suffer from scalability constraints at edge nodes.",
+    "...requires further testing under extreme conditions.",
+    "...assumes access to clean labeled data.",
+    "...depends on parameter tuning for optimal performance.",
+    "...has not yet been evaluated in safety-critical contexts."
+  ]
+},
+"Conclusion": {
+  "phrases": [
+    "...summarizes key contributions and empirical support.",
+    "...confirms the utility of the proposed framework.",
+    "...offers insights into future design possibilities.",
+    "...recommends further exploration into explainability.",
+    "...reinforces the relevance of this work to emerging applications."
+  ]
+},
+"Future_Work": {
+  "phrases": [
+    "...aims to incorporate active learning strategies.",
+    "...seeks to expand to unsupervised learning settings.",
+    "...intends to automate configuration across datasets.",
+    "...will explore interpretability using attention mechanisms.",
+    "...targets long-term deployment in real-time systems."
+  ]
+},
+"Acknowledgements": {
+  "phrases": [
+    "...express gratitude for institutional support.",
+    "...acknowledge funding agencies and collaborators.",
+    "...thank reviewers for their constructive feedback.",
+    "...recognize contributions from research assistants.",
+    "...appreciate access to computing infrastructure."
+  ]
+},
+
+
+
+"Motivation": {
+  "phrases": [
+    "...has recently gained significant attention due to its wide-ranging applications.",
+    "...remains a critical challenge in the development of adaptive intelligent systems.",
+    "...has led to renewed interest in dynamic analysis frameworks.",
+    "...necessitates robust and scalable methodologies.",
+    "...continues to evolve in response to increasing system complexity."
+  ]
+},
+"Background": {
+  "phrases": [
+    "...is grounded in foundational principles of computational modeling.",
+    "...has traditionally been addressed using rule-based approaches.",
+    "...has witnessed a paradigm shift with the advent of data-driven methods.",
+    "...has been extensively studied, yet gaps remain in practical deployment.",
+    "...requires a nuanced understanding of system-environment interaction."
+  ]
+},
+"Research_Gap": {
+  "phrases": [
+    "...lacks comprehensive methods for handling non-stationary data.",
+    "...has limited support for real-time inference in constrained settings.",
+    "...fails to incorporate uncertainty in predictive modeling.",
+    "...is yet to fully exploit temporal patterns in streaming data.",
+    "...is constrained by high computational and annotation costs."
+  ]
+},
+"Proposed_Method": {
+  "phrases": [
+    "...is designed to operate efficiently under evolving conditions.",
+    "...builds upon prior architectures by integrating adaptive learning components.",
+    "...introduces a novel hybrid mechanism for sequential inference.",
+    "...addresses scalability through modular design principles.",
+    "...enhances classification precision by refining feature extraction."
+  ]
+},
+"Implementation": {
+  "phrases": [
+    "...was implemented using high-level scripting and compiled routines.",
+    "...utilizes asynchronous processing to minimize latency.",
+    "...leverages an extensible pipeline for modular experimentation.",
+    "...adopts configuration-free deployment for ease of integration.",
+    "...relies on cross-platform compatibility for portability."
+  ]
+},
+"Evaluation_Metrics": {
+  "phrases": [
+    "...are used to quantify detection accuracy and robustness.",
+    "...include precision, recall, F1-score, and AUC-ROC analysis.",
+    "...provide insights into false positive/negative trends.",
+    "...benchmark performance across multiple domains.",
+    "...reflect operational trade-offs under varying load conditions."
+  ]
+},
+"Discussion": {
+  "phrases": [
+    "...confirms the adaptability of the proposed approach across test conditions.",
+    "...suggests potential for deployment in real-time applications.",
+    "...underscores the importance of incorporating uncertainty modeling.",
+    "...demonstrates clear improvement over conventional baselines.",
+    "...highlights trade-offs between inference speed and prediction accuracy."
+  ]
+},
+"Limitations": {
+  "phrases": [
+    "...is currently limited by the availability of annotated datasets.",
+    "...requires manual configuration for certain hyperparameters.",
+    "...has not yet been validated on large-scale real-world deployments.",
+    "...may not generalize well to unseen or highly heterogeneous domains.",
+    "...exhibits sensitivity to initialization parameters under some settings."
+  ]
+},
+"Future_Work": {
+  "phrases": [
+    "...will aim to incorporate transfer learning for broader applicability.",
+    "...seeks to expand integration with edge computing platforms.",
+    "...includes investigating semi-supervised and unsupervised variants.",
+    "...targets dynamic adaptation without prior retraining.",
+    "...will focus on lifelong learning and continual calibration mechanisms."
+  ]
+}
+,
+"Motivation": {
+  "phrases": [
+    "Recent~developments~have~highlighted~the~need~for~enhanced~decision-making~strategies.",
+    "The~complexity~of~modern~systems~necessitates~more~adaptive~approaches.",
+    "Ensuring~reliable~operation~in~dynamic~environments~has~become~increasingly~challenging.",
+    "There~exists~a~growing~demand~for~techniques~capable~of~handling~uncertainty~and~noise.",
+    "Scalability~and~robustness~remain~critical~objectives~in~system~design."
+  ]
+},
+"Background": {
+  "phrases": [
+    "Traditional~techniques~often~fail~to~address~the~variability~in~real-world~conditions.",
+    "Recent~approaches~have~sought~to~incorporate~contextual~information~into~the~modeling~process.",
+    "Advancements~in~data-driven~methods~have~opened~new~avenues~for~automation.",
+    "Existing~models~frequently~suffer~from~limited~generalizability.",
+    "Adaptive~architectures~have~emerged~as~a~promising~solution~to~these~challenges."
+  ]
+},
+"Research_Gap": {
+  "phrases": [
+    "Few~methods~have~demonstrated~robust~performance~under~non-stationary~conditions.",
+    "Current~frameworks~lack~mechanisms~to~efficiently~learn~from~limited~or~noisy~data.",
+    "The~absence~of~domain-agnostic~representations~remains~a~key~bottleneck.",
+    "Many~models~overlook~the~temporal~and~spatial~aspects~of~data~dependencies.",
+    "There~is~a~need~for~solutions~that~can~autonomously~adapt~to~changing~operational~contexts."
+  ]
+},
+"Proposed_Method": {
+  "phrases": [
+    "We~introduce~a~generalized~framework~designed~to~enhance~resilience~and~adaptability.",
+    "Our~approach~combines~rule-based~logic~with~statistical~learning~for~improved~accuracy.",
+    "Feature~construction~leverages~domain-agnostic~techniques~to~capture~essential~patterns.",
+    "A~multi-stage~architecture~is~utilized~to~support~both~detection~and~classification~tasks.",
+    "The~proposed~method~is~designed~to~support~scalable~real-time~inference."
+  ]
+},
+"Implementation": {
+  "phrases": [
+    "The~model~was~developed~using~a~modular~pipeline~to~ensure~flexibility~and~reproducibility.",
+    "All~components~were~integrated~within~a~unified~data~processing~framework.",
+    "Performance~optimization~was~achieved~via~parallel~processing~and~batch~operations.",
+    "Various~data~transformation~and~normalization~techniques~were~applied~prior~to~analysis.",
+    "Computational~requirements~were~evaluated~on~both~embedded~and~cloud~platforms."
+  ]
+},
+"Evaluation_Metrics": {
+  "phrases": [
+    "The~efficacy~of~the~approach~was~assessed~using~standard~classification~metrics.",
+    "Comparative~analysis~was~conducted~against~baseline~and~benchmark~models.",
+    "Metrics~such~as~precision,~recall,~and~F1-score~were~utilized~to~quantify~performance.",
+    "Area~under~the~curve~(AUC)~and~ROC~curves~were~used~for~visual~assessment.",
+    "Both~quantitative~and~qualitative~analyses~were~performed~to~support~findings."
+  ]
+},
+"Discussion": {
+  "phrases": [
+    "Results~demonstrated~a~consistent~performance~gain~over~existing~alternatives.",
+    "The~method~exhibited~strong~resilience~under~varying~levels~of~disturbance.",
+    "A~trade-off~was~observed~between~complexity~and~computational~overhead.",
+    "Robustness~was~particularly~evident~in~low-data~or~noisy~environments.",
+    "Our~findings~highlight~the~importance~of~adaptive~learning~mechanisms~in~complex~systems."
+  ]
+},
+"Limitations": {
+  "phrases": [
+    "The~framework~relies~on~assumptions~that~may~not~hold~in~all~contexts.",
+    "Some~degree~of~manual~configuration~is~required~prior~to~deployment.",
+    "Evaluation~was~limited~to~synthetic~and~controlled~scenarios.",
+    "The~current~implementation~does~not~support~fully~autonomous~adaptation.",
+    "Future~iterations~may~incorporate~more~flexible~parameter~tuning~strategies."
+  ]
+},
+"Future_Work": {
+  "phrases": [
+    "Upcoming~work~will~focus~on~extending~the~framework~to~support~distributed~architectures.",
+    "Further~investigation~is~planned~into~the~use~of~self-supervised~learning.",
+    "Cross-domain~transferability~is~expected~to~be~a~key~area~of~future~research.",
+    "We~aim~to~explore~the~integration~of~knowledge~graphs~for~enhanced~contextual~awareness.",
+    "Scalable~deployment~on~edge~and~fog~nodes~will~be~considered~in~subsequent~studies."
+  ]
+}
+
+  
+,
+"Motivation": {
+  "phrases": [
+    "Rapid~advancement~in~sensor~technologies~has~necessitated~robust~data~interpretation~methods.",
+    "The~prevalence~of~noisy~and~incomplete~sensor~data~necessitates~fault-tolerant~designs.",
+    "Maintaining~data~integrity~in~large-scale~sensor~networks~remains~a~critical~challenge.",
+    "As~smart~systems~become~ubiquitous,~ensuring~data~veracity~is~paramount.",
+    "The~complexity~of~real-time~systems~demands~efficient~error~detection~mechanisms."
+  ]
+},
+"Background": {
+  "phrases": [
+    "Sensor~networks~are~integral~to~modern~cyber-physical~and~IoT~applications.",
+    "Traditional~fault~diagnosis~methods~are~limited~by~static~thresholds~and~heuristics.",
+    "Hybrid~approaches~that~combine~statistical~and~machine~learning~techniques~are~emerging.",
+    "Context-awareness~is~increasingly~vital~in~adaptive~sensor~system~design.",
+    "Recent~studies~have~emphasized~the~role~of~temporal~and~spatial~correlation~in~fault~detection."
+  ]
+},
+"Research_Gap": {
+  "phrases": [
+    "Few~existing~approaches~adequately~account~for~real-time~variability~in~sensor~behaviour.",
+    "A~significant~limitation~in~prior~work~is~the~lack~of~support~for~scalable~multi-sensor~integration.",
+    "Prior~methods~fail~to~capture~the~non-linear~characteristics~of~sensor~faults.",
+    "Current~literature~lacks~generalizable~models~that~adapt~to~unseen~data~distributions.",
+    "There~is~a~need~for~frameworks~that~integrate~semantic~and~syntactic~data~features."
+  ]
+},
+"Proposed_Method": {
+  "phrases": [
+    "We~propose~a~novel~multi-stage~architecture~for~robust~fault~diagnosis~in~sensor~networks.",
+    "The~framework~incorporates~temporal~filters~with~attention-based~deep~learning~modules.",
+    "Feature~engineering~is~performed~using~domain-specific~statistical~and~transform~techniques.",
+    "Our~pipeline~combines~anomaly~detection,~data~labeling,~and~fault~classification~into~a~unified~model.",
+    "We~employ~adaptive~thresholding~and~unsupervised~learning~for~online~detection."
+  ]
+},
+"Implementation": {
+  "phrases": [
+    "The~model~was~implemented~in~Python~using~TensorFlow~and~Scikit-learn~libraries.",
+    "Sensor~data~was~collected~using~Arduino-based~setups~and~pre-processed~with~Matlab.",
+    "KL~divergence~and~Hamming~distance~were~computed~for~each~principal~component~feature.",
+    "Hyperparameters~were~optimized~using~grid~search~and~cross-validation.",
+    "All~experiments~were~conducted~on~a~standardized~dataset~with~multi-fault~annotations."
+  ]
+},
+"Evaluation_Metrics": {
+  "phrases": [
+    "Performance~was~measured~in~terms~of~accuracy,~precision,~recall,~and~F1-score.",
+    "We~used~ROC~and~AUC~curves~to~visualize~classifier~performance~under~varied~thresholds.",
+    "Confusion~matrices~were~analyzed~to~determine~false~positive~and~negative~rates.",
+    "Our~evaluation~included~both~frame-level~and~sequence-level~analysis~of~fault~events.",
+    "Computational~efficiency~was~measured~using~runtime~and~memory~footprint~benchmarks."
+  ]
+},
+"Discussion": {
+  "phrases": [
+    "Results~indicate~a~significant~improvement~over~existing~state-of-the-art~methods.",
+    "The~proposed~framework~demonstrated~resilience~to~noise~and~data~irregularities.",
+    "Temporal~consistency~was~preserved~across~multiple~fault~conditions.",
+    "Our~model~generalizes~well~to~different~sensor~modalities~and~deployment~scenarios.",
+    "We~discuss~the~trade-off~between~detection~accuracy~and~real-time~processing~requirements."
+  ]
+},
+"Limitations": {
+  "phrases": [
+    "The~model~performance~declines~in~the~presence~of~high-frequency~signal~distortions.",
+    "Limited~training~data~may~reduce~generalization~to~unseen~fault~types.",
+    "Hyperparameter~tuning~remains~a~manual~process~in~this~version~of~the~framework.",
+    "The~current~setup~does~not~support~real-time~distributed~fault~aggregation.",
+    "Future~enhancements~may~involve~integration~with~edge~computing~platforms."
+  ]
+},
+"Future_Work": {
+  "phrases": [
+    "We~plan~to~extend~our~approach~to~support~cross-domain~transfer~learning.",
+    "Integration~with~digital~twins~could~enhance~predictive~maintenance~capabilities.",
+    "Exploration~of~federated~learning~techniques~is~a~natural~next~step.",
+    "We~intend~to~investigate~multimodal~sensor~fusion~for~complex~event~detection.",
+    "Adaptive~online~learning~mechanisms~will~be~incorporated~for~deployment~in~dynamic~environments."
+  ]
+},
+
+
+
+"Define_Problem": {
+  "phrases": [
+    "Sensor~data~is~often~affected~by~inconsistencies~due~to~environmental~variations.",
+    "Uncertainty~in~sensor~measurements~can~lead~to~erroneous~inferences.",
+    "The~heterogeneity~of~data~sources~complicates~fault~classification~tasks.",
+    "Accurate~diagnosis~requires~robust~handling~of~spatio-temporal~deviations.",
+    "Manual~calibration~is~impractical~in~large-scale~deployments~of~IoT~devices."
+  ]
+},
+"Describe_Methodology": {
+  "phrases": [
+    "We~utilize~a~stacked~autoencoder~to~extract~deep~features~from~raw~sensor~signals.",
+    "The~proposed~framework~combines~unsupervised~learning~with~statistical~thresholding.",
+    "Temporal~patterns~are~captured~using~window-based~segmentation~of~the~input~stream.",
+    "KL~divergence~and~Hamming~distance~are~used~as~indicators~of~data~anomaly.",
+    "Each~sensor~reading~is~individually~assessed~via~domain-specific~threshold~rules."
+  ]
+},
+"Describe_Results": {
+  "phrases": [
+    "Our~method~achieved~a~classification~accuracy~of~over~97%~across~multiple~fault~types.",
+    "Comparative~analysis~demonstrated~superior~recall~for~minority~classes.",
+    "The~model~exhibited~low~false~positive~rates~under~adverse~conditions.",
+    "Performance~was~consistent~across~both~synthetic~and~real~sensor~datasets.",
+    "Results~confirm~the~generalizability~of~our~approach~to~unseen~deployment~scenarios."
+  ]
+},
+"Compare_With_Existing": {
+  "phrases": [
+    "Unlike~traditional~SVM-based~models,~our~framework~adapts~to~non-linear~sensor~faults.",
+    "In~contrast~to~rule-based~systems,~we~employ~a~data-driven~strategy~for~classification.",
+    "Prior~methods~often~neglect~sensor~interdependence,~a~gap~we~aim~to~fill.",
+    "Compared~to~existing~state-of-the-art~methods,~our~approach~requires~less~manual~intervention.",
+    "This~distinguishes~our~work~from~supervised~techniques~requiring~exhaustive~labeling."
+  ]
+},
+"Conclude_And_Implication": {
+  "phrases": [
+    "The~proposed~system~provides~a~scalable~solution~for~real-time~fault~diagnosis~in~IoT.",
+    "Findings~suggest~significant~potential~for~deployment~in~safety-critical~applications.",
+    "This~research~paves~the~way~for~intelligent~sensor~management~in~smart~environments.",
+    "Our~results~highlight~the~importance~of~context-aware~detection~strategies.",
+    "Future~work~will~focus~on~extending~the~approach~to~multi-modal~sensor~networks."
+  ]
+},
+
+
+
+
+  "Introduce_Topic": {
+    "phrases": [
+      "Increasing~demand~for~reliability~in~sensor~networks~has~motivated~researchers~to~explore~...",
+      "The~ubiquity~of~embedded~systems~necessitates~the~development~of~robust~diagnostic~frameworks.",
+      "In~mission-critical~applications,~early~fault~detection~plays~a~vital~role~in~ensuring~system~safety.",
+      "Real-time~monitoring~and~analytics~are~becoming~integral~components~of~modern~IoT~systems.",
+      "With~the~growing~complexity~of~CPS,~conventional~diagnostic~tools~are~no~longer~sufficient."
+    ]
+  },
+  "Highlight_Research_Gap": {
+    "phrases": [
+      "Existing~approaches~fail~to~generalize~across~heterogeneous~sensor~modalities.",
+      "There~is~a~notable~scarcity~of~solutions~that~address~uncertainty-aware~fault~classification.",
+      "Previous~studies~have~overlooked~multi-layer~dependencies~in~streaming~sensor~data.",
+      "Few~frameworks~adequately~tackle~the~temporal~variability~of~sensor~faults.",
+      "Limited~effort~has~been~invested~in~cross-domain~transfer~of~fault~detection~models."
+    ]
+  },
+  "Justify_Importance": {
+    "phrases": [
+      "Accurate~fault~detection~enhances~system~resilience~and~extends~component~lifespan.",
+      "Timely~fault~isolation~can~prevent~catastrophic~failures~in~critical~systems.",
+      "Uninterrupted~operation~in~IoT~networks~requires~adaptive~and~lightweight~diagnostic~techniques.",
+      "Detecting~deviations~in~data~streams~supports~proactive~maintenance~strategies.",
+      "Reliable~sensor~data~serves~as~the~foundation~for~informed~decision-making~in~CPS."
+    ]
+  },
+  "Bridge_Gap_And_Contribution": {
+    "phrases": [
+      "To~bridge~this~gap,~we~introduce~a~multi-stage~learning~pipeline~for~fault~detection~and~classification.",
+      "This~work~proposes~a~scalable~and~generalizable~architecture~for~sensor~fault~management.",
+      "We~design~a~hybrid~framework~that~leverages~both~statistical~metrics~and~deep~features.",
+      "Our~method~demonstrates~robustness~against~noise,~drift,~and~multi-class~fault~conditions.",
+      "The~proposed~approach~is~validated~through~extensive~experiments~on~real-world~sensor~datasets."
+    ]
+  },
+  "Formal_Tone_Transition_Words": {
+    "phrases": [
+      "Notably,",
+      "Furthermore,",
+      "In~addition,",
+      "To~this~end,",
+      "Consequently,",
+      "As~a~result,",
+      "On~the~contrary,",
+      "Despite~these~advancements,",
+      "From~a~methodological~standpoint,",
+      "To~validate~the~hypothesis,"
+    ]
+  },
+
+
+    "Introduce_Topic": {
+      "phrases": [
+        "Recent~advancements~in~sensor~technologies~have~intensified~interest~in~...",
+        "With~the~growing~deployment~of~sensor-based~systems,~the~need~for~...",
+        "In~the~context~of~real-time~systems,~ensuring~fault~resilience~is~paramount.",
+        "Owing~to~the~pervasive~nature~of~CPS,~the~complexity~of~fault~detection~has~escalated.",
+        "Conventional~approaches~have~proven~inadequate~for~handling~non-stationary~faults."
+      ]
+    },
+    "Highlight_Research_Gap": {
+      "phrases": [
+        "Nevertheless,~limited~attention~has~been~paid~to~...",
+        "Despite~the~existing~literature,~there~remains~a~lack~of~emphasis~on~...",
+        "Few~studies~have~thoroughly~examined~sensor~anomalies~in~dynamic~environments.",
+        "To~date,~a~comprehensive~framework~addressing~both~detection~and~diagnosis~remains~underexplored."
+      ]
+    },
+    "State_Contribution": {
+      "phrases": [
+        "This~paper~presents~a~novel~method~for~real-time~sensor~fault~identification.",
+        "The~primary~contribution~of~this~work~is~the~introduction~of~a~hybrid~diagnostic~mechanism.",
+        "We~propose~an~integrated~architecture~that~detects~and~diagnoses~sensor~faults~in~real-time.",
+        "A~hybrid~learning-based~strategy~is~formulated~to~improve~robustness~under~uncertain~conditions."
+      ]
+    },
+    "Describe_Methodology": {
+      "phrases": [
+        "Our~methodology~involves~the~integration~of~deep~learning~and~probabilistic~inference.",
+        "The~proposed~system~leverages~both~statistical~and~machine~learning~models~to~identify~faults.",
+        "Sensor~data~are~preprocessed~using~signal~normalization,~followed~by~feature~extraction~using~autoencoders.",
+        "A~multi-layer~architecture~is~used~to~capture~temporal~dependencies~and~detect~deviations."
+      ]
+    },
+    "Present_Results": {
+      "phrases": [
+        "Experimental~results~reveal~that~the~model~achieves~significant~improvement~in~detection~accuracy.",
+        "Compared~to~traditional~techniques,~the~proposed~approach~demonstrates~superior~precision~and~recall.",
+        "A~noticeable~increase~in~F1-score~validates~the~model’s~performance.",
+        "The~system~maintains~stability~under~varying~noise~and~fault~intensity~conditions."
+      ]
+    },
+    "Discuss_Implications": {
+      "phrases": [
+        "These~findings~suggest~that~the~framework~is~suitable~for~deployment~in~edge-computing~applications.",
+        "The~results~underscore~the~model’s~applicability~to~autonomous~sensor~networks.",
+        "This~work~lays~the~foundation~for~developing~adaptive~and~resilient~CPS.",
+        "The~proposed~architecture~is~scalable~and~modular,~enabling~integration~into~existing~IoT~platforms."
+      ]
+    },
+    "Limitations_And_Future_Work": {
+      "phrases": [
+        "While~the~results~are~promising,~further~validation~on~heterogeneous~datasets~is~required.",
+        "Future~work~will~involve~testing~under~real-world~conditions~and~continuous~data~streams.",
+        "The~current~framework~relies~on~supervised~learning;~unsupervised~extensions~are~planned.",
+        "A~limitation~is~the~assumption~of~independence~among~fault~types,~which~will~be~addressed~in~future~research."
+      ]
+    },
+    "Conclude": {
+      "phrases": [
+        "In~summary,~this~work~proposes~a~robust,~scalable~framework~for~real-time~sensor~fault~management.",
+        "The~framework~offers~enhanced~reliability~for~intelligent~monitoring~systems.",
+        "This~approach~demonstrates~substantial~improvement~in~timely~fault~identification~and~classification.",
+        "Overall,~the~proposed~architecture~contributes~towards~trustworthy~and~self-healing~CPS~design."
+      ]
+    }
+  }
+
+
+
+
+
+
     "images": ["image1.jpg", "image2.jpg"]
 }
