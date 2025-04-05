@@ -23,9 +23,31 @@
         Topics
       </a>
       <ul class="dropdown-menu" aria-labelledby="topicsDropdown">
-        <li><a class="dropdown-item" href="#" onclick="showContent('math')">Mathematics</a></li>
-        <li><a class="dropdown-item" href="#" onclick="showContent('science')">Science</a></li>
-        <li><a class="dropdown-item" href="#" onclick="showContent('history')">History</a></li>
+
+        <!-- Abstract Submenu -->
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Abstract</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" onclick="showContent('abstract_meaning')">Meaning</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('abstract_synonyms')">Synonyms</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('abstract_antonyms')">Antonyms</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('abstract_phrases')">Phrases</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('abstract_words_inside')">Words Inside Words</a></li>
+          </ul>
+        </li>
+
+        <!-- Introduction Submenu -->
+        <li class="dropdown-submenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Introduction</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" onclick="showContent('introduction_meaning')">Meaning</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('introduction_synonyms')">Synonyms</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('introduction_antonyms')">Antonyms</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('introduction_phrases')">Phrases</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showContent('introduction_words_inside')">Words Inside Words</a></li>
+          </ul>
+        </li>
+
       </ul>
     </li>
 
